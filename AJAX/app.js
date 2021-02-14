@@ -1,7 +1,5 @@
 let btn = document.getElementById('btn');
 
-
-
 function call(){
     fetch("https://jsonplaceholder.typicode.com/users")
     .then(function(response){
@@ -9,8 +7,7 @@ function call(){
     })
     .then(function(response){
             console.log(response);
-            for(let info of response){     
-                     
+            for(let info of response){          
                 document.body.innerHTML += `<table>
                 <tr>
                     <th>Name</th>

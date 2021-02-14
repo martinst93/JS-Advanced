@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./2.jpg");
+    background-size: 100% 100%;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+table {
+    border-collapse: collapse;
+    min-width: 600px;
+    padding: 5px;
+    opacity: 5;
+    margin: 15px 0;
+    font-size: 0.9rem;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+tr , td, th{
+    padding: 12px 15px;
+    text-align: center;  
+    font-weight: bold;
+}
+
+td:nth-last-of-type(even){
+    background-color: #f3f3f362;
+    color: rgb(255, 0, 0);
+}
+td:nth-last-of-type(odd){
+    background-color: rgba(255, 255, 255, 0.247);
+    color: rgb(0, 26, 255);
+}
+th{
+    background-color: rgba(255, 255, 0, 0.356);
+}
+#btn1:hover  {
+    cursor: pointer;
+    background-color: rgba(255, 255, 0, 0.356);
+    color: yellow;
+}
+#btn2:hover  {
+    cursor: pointer;
+    background-color: rgb(0, 26, 255, 0.356);
+    color: blue;
+}
+#btn3:hover  {
+    cursor: pointer;
+    background-color: rgba(255, 8, 0, 0.356);
+    color: rgb(255, 0, 0);
+}
