@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+table {
+
+    overflow-x: hidden;
+    border-collapse: collapse;
+    min-width: 900px;
+    padding: 5px;
+    margin: 0 0;
+    font-size: 0.9rem;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+td{
+    padding: 12px 15px;
+    text-align: center;  
+}
+.thead{
+    padding: 12px 15px;
+    text-align: center;  
+    font-weight: bold; 
+    font-size: 1.4rem;
+    background-color: rgba(0, 255, 85, 0.356);
+}
+td:nth-last-of-type(even){
+    background-color: #f3f3f362;
+    color: rgb(255, 0, 0);
+}
+td:nth-last-of-type(odd){
+    background-color: rgba(255, 255, 255, 0.247);
+    color: rgb(0, 26, 255);
+}
+th{
+    font-size: 1rem;
+}
+.headTT{
+    margin-top: 0;
+}
+.headingT{
+    margin: 15px 0;
+}
+.prop{
+    text-align: left;
+}
