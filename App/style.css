@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+table {
+    overflow-x: hidden;
+    border-collapse: collapse;
+    min-width: 900px;
+    padding: 5px;
+    margin: 0 0;
+    font-size: 0.9rem;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
+}
+th{
+    padding: 12px 15px;
+    text-align: center;  
+    font-weight: bold; 
+    font-size: 1.4rem;
+}
+#red{
+    background-color: rgba(255, 8, 0, 0.555);
+}
+#yellow{
+    background-color: rgba(229, 255, 0, 0.699);
+}
+#green{
+    background-color: rgba(0, 255, 34, 0.726);
+}
+#orange{
+    background-color: rgba(255, 145, 0, 0.726);
+}
+td{
+    padding: 12px 15px;
+    text-align: center; 
+    font-size: 1.2rem; 
+}
+#btnN{
+    cursor: pointer;
+    border: 1px solid;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+#btnN:hover{
+    color: rgba(0, 0, 255, 0.562);
+}
+#btnC{
+    cursor: pointer;
+    border: 1px solid;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+#btnC:hover{
+    color: rgba(255, 0, 0, 0.514);
+}
